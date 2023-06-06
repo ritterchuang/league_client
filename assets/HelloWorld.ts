@@ -17,7 +17,7 @@ export class HelloWorld extends Component {
             let sendData: ArrayBuffer;
             sendData = this.str2ab("ritter");
             this.websocket.send(sendData);
-        }, 1000);
+        }, 5000);
     }
 
     private str2ab(str: string): any {
