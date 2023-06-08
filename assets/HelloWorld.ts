@@ -8,7 +8,8 @@ export class HelloWorld extends Component {
     start() {
         console.info('Hello world');
 
-        let url = "ws://localhost:44346";
+        let url = "ws://slot-game-server-rmsi6zacma-uw.a.run.app";
+        // let url = "ws://localhost:44346";
         this.websocket = new WebSocket(url);
         this.websocket.binaryType = "arraybuffer";
 
